@@ -386,6 +386,7 @@
         },
         success: function(response) {
           $('#content').append(response["more_products"]);
+          console.log(response["end"]);
         },
         error: function(xhr) {
           //Do Something to handle error

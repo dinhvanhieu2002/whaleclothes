@@ -26,7 +26,7 @@
           <span class="shipping-content-phone">{{$value->phone}}</span>
           <span class="shipping-content-address">{{$value->address}}</span>
           <span class="shipping-trash" style="margin-left: 150px;"><button class="btn" data-toggle="modal" data-target="#shippingdeletemodal"><i class="fa fa-trash" ></i></button></span>
-        </div>
+        </div> 
       </div>
     @endforeach
   @endif
@@ -98,7 +98,8 @@
               </tr>
               <?php 
                 $total += $cartEle->price * $cartEle->quantity;
-                Session::put('total', $total);
+                session()->put('total', $total);
+                // Session::put('total', $total);
                ?>
               @endforeach
           </tbody>
@@ -219,7 +220,11 @@
           <form action="{{URL::to('/delete-shipping')}}" method="POST">
             {{csrf_field()}}
             <div class="modal-body">
+              @if($shipping->isEmpty())
+              <input type="hidden" name="del_shipping_id" id='del_shipping_id' value="">
+              @else
               <input type="hidden" name="del_shipping_id" id='del_shipping_id' value="{{$shipping[0]->id}}">
+              @endif
               <h4>Do you really want to delete this?</h4>
             </div>
           

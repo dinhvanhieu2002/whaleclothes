@@ -29,7 +29,7 @@ class HomeController extends Controller
         // $this->UserLogin();
         
         $data = $request->total;
-        $end = $data + 4;
+        $end = 4;
         
         $result = DB::table('tbl_product')->offset($data)->limit($end)->get();
 
@@ -59,6 +59,7 @@ class HomeController extends Controller
         }
         return response()->json([
             'more_products' => $op,
+            'end' => $end,
             ]);
     }
 }

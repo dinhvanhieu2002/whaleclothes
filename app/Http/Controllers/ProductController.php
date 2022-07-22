@@ -84,7 +84,11 @@ class ProductController extends Controller
         $data['product_name'] = $request->update_product_name;
         $data['product_desc'] = $request->update_product_desc;
         $data['price'] = $request->update_product_price;
-        $data['image'] = $request->update_product_image;
+
+        $image = $request->file('update_product_image');
+        $storedPath = $image->storeAs('product',$image->getClientOriginalName(), 'local');
+        $data['image'] = $image->getClientOriginalName();
+        // $data['image'] = $request->update_product_image;
 
 
         DB::table('tbl_product')->where('id', $product_id)->update($data);

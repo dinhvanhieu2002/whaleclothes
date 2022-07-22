@@ -59,7 +59,7 @@
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
-          <form action="{{URL::to('/update-product')}}" method="POST">
+          <form action="{{URL::to('/update-product')}}" method="POST" enctype="multipart/form-data">
             {{csrf_field()}}
             <div class="modal-body">
               <div class="form-group">

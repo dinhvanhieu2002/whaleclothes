@@ -94,10 +94,10 @@
                   </form>
                   <?php
                     
-                    $message = Session::get('message');
+                    $message = session()->get('message');
                     if($message) {
                       echo $message;
-                      Session::put('message', null);
+                      session()->put('message', null);
                     }
                   ?>
                   <hr class="m-0">

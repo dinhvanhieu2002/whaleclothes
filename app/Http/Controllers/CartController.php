@@ -73,7 +73,7 @@ class CartController extends Controller
         } 
         else 
         {
-            Session::put('message', 'Vui lòng đăng nhập');
+            Session::put('message', 'Please login before');
             return Redirect::to('/login');
         }
         

@@ -3,10 +3,10 @@
 <div class="content-wrapper">
     <?php 
         session_start();
-        $message = Session::get('message');
+        $message = session()->get('message');
         if($message) {
             echo '<span class="text-alert">'.$message.'</span>';
-            Session::put('message', null);
+            session()->put('message', null);
         }
     ?>
     <form action="{{URL::to('/save-brand-product')}}" method="POST">

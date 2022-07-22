@@ -125,7 +125,7 @@
                 <li class="nav-item mr-2 d-none d-lg-block"><a id="navbar-fullscreen" href="javascript:;" class="nav-link apptogglefullscreen"><i class="ft-maximize font-medium-3 blue-grey darken-4"></i>
                     <p class="d-none">fullscreen</p></a></li>
                 <li class="dropdown nav-item"><a id="dropdownBasic3" href="#" data-toggle="dropdown" class="nav-link position-relative dropdown-toggle"><i class="ft-flag font-medium-3 blue-grey darken-4"></i><span class="selected-language d-none"></span></a>
-                  <div class="dropdown-menu dropdown-menu-right text-left"><a href="javascript:;" class="dropdown-item py-1"><img src="app-assets/img/flags/us.png" class="langimg"/><span> English</span></a><a href="javascript:;" class="dropdown-item py-1"><img src="app-assets/img/flags/es.png" class="langimg"/><span> Spanish</span></a><a href="javascript:;" class="dropdown-item py-1"><img src="app-assets/img/flags/br.png" class="langimg"/><span> Portuguese</span></a><a href="javascript:;" class="dropdown-item"><img src="app-assets/img/flags/de.png" class="langimg"/><span> French</span></a></div>
+                  <div class="dropdown-menu dropdown-menu-right text-left"><a href="javascript:;" class="dropdown-item py-1"><img src="{{asset('/public/backend/app-assets/img/flags/us.png')}}" class="langimg"/><span> English</span></a><a href="javascript:;" class="dropdown-item py-1"><img src="{{asset('/public/backend/app-assets/img/flags/es.png')}}" class="langimg"/><span> Spanish</span></a><a href="javascript:;" class="dropdown-item py-1"><img src="{{asset('/public/backend/app-assets/img/flags/br.png')}}" class="langimg"/><span> Portuguese</span></a><a href="javascript:;" class="dropdown-item"><img src="{{asset('/public/backend/app-assets/img/flags/de.png')}}" class="langimg"/><span> French</span></a></div>
                 </li>
                 <li class="dropdown nav-item"><a id="dropdownBasic2" href="#" data-toggle="dropdown" class="nav-link position-relative dropdown-toggle"><i class="ft-bell font-medium-3 blue-grey darken-4"></i><span class="notification badge badge-pill badge-danger">4</span>
                     <p class="d-none">Notifications</p></a>
@@ -262,7 +262,7 @@
                 <div id="chatapp" class="col-12">
                   <h6 class="mt-1 mb-3 text-bold-400">RECENT CHAT</h6>
                   <div class="collection border-none">
-                    <div class="media mb-1"><a><img alt="96x96" src="app-assets/img/portrait/small/avatar-s-12.png" class="media-object d-flex mr-3 bg-primary height-50 rounded-circle"></a>
+                    <div class="media mb-1"><a><img alt="96x96" src="{{asset('/public/backend/app-assets/img/portrait/small/avatar-s-12.png')}}" class="media-object d-flex mr-3 bg-primary height-50 rounded-circle"></a>
                       <div class="media-body">
                         <div class="clearfix">
                           <h4 class="font-medium-1 primary mt-1 mb-0 mr-auto float-left">Elizabeth Elliott</h4><span class="medium-small float-right blue-grey-text text-lighten-3">5.00 AM</span>
@@ -270,7 +270,7 @@
                         <p class="text-muted font-small-3">Thank you</p>
                       </div>
                     </div>
-                    <div class="media mb-1"><a><img alt="96x96" src="app-assets/img/portrait/small/avatar-s-6.png" class="media-object d-flex mr-3 bg-primary height-50 rounded-circle"></a>
+                    <div class="media mb-1"><a><img alt="96x96" src="{{asset('/public/backend/app-assets/img/portrait/small/avatar-s-6.png')}}" class="media-object d-flex mr-3 bg-primary height-50 rounded-circle"></a>
                       <div class="media-body">
                         <div class="clearfix">
                           <h4 class="font-medium-1 primary mt-1 mb-0 mr-auto float-left">Mary Adams</h4><span class="medium-small float-right blue-grey-text text-lighten-3">4.14 AM</span>
@@ -278,7 +278,7 @@
                         <p class="text-muted font-small-3">Hello Boo</p>
                       </div>
                     </div>
-                    <div class="media mb-1"><a><img alt="96x96" src="app-assets/img/portrait/small/avatar-s-11.png" class="media-object d-flex mr-3 bg-primary height-50 rounded-circle"></a>
+                    <div class="media mb-1"><a><img alt="96x96" src="{{asset('/public/backend/app-assets/img/portrait/small/avatar-s-11.png')}}" class="media-object d-flex mr-3 bg-primary height-50 rounded-circle"></a>
                       <div class="media-body">
                         <div class="clearfix">
                           <h4 class="font-medium-1 primary mt-1 mb-0 mr-auto float-left">Caleb Richards</h4><span class="medium-small float-right blue-grey-text text-lighten-3">9.00 PM</span>
@@ -286,7 +286,7 @@
                         <p class="text-muted font-small-3">Keny !</p>
                       </div>
                     </div>
-                    <div class="media mb-1"><a><img alt="96x96" src="app-assets/img/portrait/small/avatar-s-18.png" class="media-object d-flex mr-3 bg-primary height-50 rounded-circle"></a>
+                    <div class="media mb-1"><a><img alt="96x96" src="{{asset('/public/backend/app-assets/img/portrait/small/avatar-s-18.png')}}" class="media-object d-flex mr-3 bg-primary height-50 rounded-circle"></a>
                       <div class="media-body">
                         <div class="clearfix">
                           <h4 class="font-medium-1 primary mt-1 mb-0 mr-auto float-left">June Lane</h4><span class="medium-small float-right blue-grey-text text-lighten-3">4.14 AM</span>
@@ -294,7 +294,7 @@
                         <p class="text-muted font-small-3">Ohh God</p>
                       </div>
                     </div>
-                    <div class="media mb-1"><a><img alt="96x96" src="app-assets/img/portrait/small/avatar-s-1.png" class="media-object d-flex mr-3 bg-primary height-50 rounded-circle"></a>
+                    <div class="media mb-1"><a><img alt="96x96" src="{{asset('/public/backend/app-assets/img/portrait/small/avatar-s-1.png')}}" class="media-object d-flex mr-3 bg-primary height-50 rounded-circle"></a>
                       <div class="media-body">
                         <div class="clearfix">
                           <h4 class="font-medium-1 primary mt-1 mb-0 mr-auto float-left">Edward Fletcher</h4><span class="medium-small float-right blue-grey-text text-lighten-3">5.15 PM</span>
@@ -302,7 +302,7 @@
                         <p class="text-muted font-small-3">Love you</p>
                       </div>
                     </div>
-                    <div class="media mb-1"><a><img alt="96x96" src="app-assets/img/portrait/small/avatar-s-2.png" class="media-object d-flex mr-3 bg-primary height-50 rounded-circle"></a>
+                    <div class="media mb-1"><a><img alt="96x96" src="{{asset('/public/backend/app-assets/img/portrait/small/avatar-s-2.png')}}" class="media-object d-flex mr-3 bg-primary height-50 rounded-circle"></a>
                       <div class="media-body">
                         <div class="clearfix">
                           <h4 class="font-medium-1 primary mt-1 mb-0 mr-auto float-left">Crystal Bates</h4><span class="medium-small float-right blue-grey-text text-lighten-3">8.00 AM</span>
@@ -310,7 +310,7 @@
                         <p class="text-muted font-small-3">Can we</p>
                       </div>
                     </div>
-                    <div class="media mb-1"><a><img alt="96x96" src="app-assets/img/portrait/small/avatar-s-3.png" class="media-object d-flex mr-3 bg-primary height-50 rounded-circle"></a>
+                    <div class="media mb-1"><a><img alt="96x96" src="{{asset('/public/backend/app-assets/img/portrait/small/avatar-s-3.png')}}" class="media-object d-flex mr-3 bg-primary height-50 rounded-circle"></a>
                       <div class="media-body">
                         <div class="clearfix">
                           <h4 class="font-medium-1 primary mt-1 mb-0 mr-auto float-left">Nathan Watts</h4><span class="medium-small float-right blue-grey-text text-lighten-3">9.53 PM</span>
@@ -318,7 +318,7 @@
                         <p class="text-muted font-small-3">Great!</p>
                       </div>
                     </div>
-                    <div class="media mb-1"><a><img alt="96x96" src="app-assets/img/portrait/small/avatar-s-15.png" class="media-object d-flex mr-3 bg-primary height-50 rounded-circle"></a>
+                    <div class="media mb-1"><a><img alt="96x96" src="{{asset('/public/backend/app-assets/img/portrait/small/avatar-s-15.png')}}" class="media-object d-flex mr-3 bg-primary height-50 rounded-circle"></a>
                       <div class="media-body">
                         <div class="clearfix">
                           <h4 class="font-medium-1 primary mt-1 mb-0 mr-auto float-left">Willard Wood</h4><span class="medium-small float-right blue-grey-text text-lighten-3">4.20 AM</span>
@@ -326,7 +326,7 @@
                         <p class="text-muted font-small-3">Do it</p>
                       </div>
                     </div>
-                    <div class="media mb-1"><a><img alt="96x96" src="app-assets/img/portrait/small/avatar-s-19.png" class="media-object d-flex mr-3 bg-primary height-50 rounded-circle"></a>
+                    <div class="media mb-1"><a><img alt="96x96" src="{{asset('/public/backend/app-assets/img/portrait/small/avatar-s-19.png')}}" class="media-object d-flex mr-3 bg-primary height-50 rounded-circle"></a>
                       <div class="media-body">
                         <div class="clearfix">
                           <h4 class="font-medium-1 primary mt-1 mb-0 mr-auto float-left">Ronnie Ellis</h4><span class="medium-small float-right blue-grey-text text-lighten-3">5.30 PM</span>
@@ -334,7 +334,7 @@
                         <p class="text-muted font-small-3">Got that</p>
                       </div>
                     </div>
-                    <div class="media mb-1"><a><img alt="96x96" src="app-assets/img/portrait/small/avatar-s-14.png" class="media-object d-flex mr-3 bg-primary height-50 rounded-circle"></a>
+                    <div class="media mb-1"><a><img alt="96x96" src="{{asset('/public/backend/app-assets/img/portrait/small/avatar-s-14.png')}}" class="media-object d-flex mr-3 bg-primary height-50 rounded-circle"></a>
                       <div class="media-body">
                         <div class="clearfix">
                           <h4 class="font-medium-1 primary mt-1 mb-0 mr-auto float-left">Gwendolyn Wood</h4><span class="medium-small float-right blue-grey-text text-lighten-3">4.34 AM</span>
@@ -342,7 +342,7 @@
                         <p class="text-muted font-small-3">Like you</p>
                       </div>
                     </div>
-                    <div class="media mb-1"><a><img alt="96x96" src="app-assets/img/portrait/small/avatar-s-13.png" class="media-object d-flex mr-3 bg-primary height-50 rounded-circle"></a>
+                    <div class="media mb-1"><a><img alt="96x96" src="{{asset('/public/backend/app-assets/img/portrait/small/avatar-s-13.png')}}" class="media-object d-flex mr-3 bg-primary height-50 rounded-circle"></a>
                       <div class="media-body">
                         <div class="clearfix">
                           <h4 class="font-medium-1 primary mt-1 mb-0 mr-auto float-left">Daniel Russell</h4><span class="medium-small float-right blue-grey-text text-lighten-3">12.00 AM</span>
@@ -350,7 +350,7 @@
                         <p class="text-muted font-small-3">Thank you</p>
                       </div>
                     </div>
-                    <div class="media mb-1"><a><img alt="96x96" src="app-assets/img/portrait/small/avatar-s-22.png" class="media-object d-flex mr-3 bg-primary height-50 rounded-circle"></a>
+                    <div class="media mb-1"><a><img alt="96x96" src="{{asset('/public/backend/app-assets/img/portrait/small/avatar-s-22.png')}}" class="media-object d-flex mr-3 bg-primary height-50 rounded-circle"></a>
                       <div class="media-body">
                         <div class="clearfix">
                           <h4 class="font-medium-1 primary mt-1 mb-0 mr-auto float-left">Sarah Graves</h4><span class="medium-small float-right blue-grey-text text-lighten-3">11.14 PM</span>
@@ -358,7 +358,7 @@
                         <p class="text-muted font-small-3">Okay you</p>
                       </div>
                     </div>
-                    <div class="media mb-1"><a><img alt="96x96" src="app-assets/img/portrait/small/avatar-s-9.png" class="media-object d-flex mr-3 bg-primary height-50 rounded-circle"></a>
+                    <div class="media mb-1"><a><img alt="96x96" src="{{asset('/public/backend/app-assets/img/portrait/small/avatar-s-9.png')}}" class="media-object d-flex mr-3 bg-primary height-50 rounded-circle"></a>
                       <div class="media-body">
                         <div class="clearfix">
                           <h4 class="font-medium-1 primary mt-1 mb-0 mr-auto float-left">Andrew Hoffman</h4><span class="medium-small float-right blue-grey-text text-lighten-3">7.30 PM</span>
@@ -366,7 +366,7 @@
                         <p class="text-muted font-small-3">Can do</p>
                       </div>
                     </div>
-                    <div class="media mb-1"><a><img alt="96x96" src="app-assets/img/portrait/small/avatar-s-20.png" class="media-object d-flex mr-3 bg-primary height-50 rounded-circle"></a>
+                    <div class="media mb-1"><a><img alt="96x96" src="{{asset('/public/backend/app-assets/img/portrait/small/avatar-s-20.png')}}" class="media-object d-flex mr-3 bg-primary height-50 rounded-circle"></a>
                       <div class="media-body">
                         <div class="clearfix">
                           <h4 class="font-medium-1 primary mt-1 mb-0 mr-auto float-left">Camila Lynch</h4><span class="medium-small float-right blue-grey-text text-lighten-3">2.00 PM</span>
